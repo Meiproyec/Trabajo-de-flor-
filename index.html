@@ -1,15 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo de Flor</title>
+
+    <title>Biblioteca Virtual Nexus</title>
+
+    <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body>
 
-    <h1>¡Bienvenidos a nuestro proyecto!</h1>
+    <header>
 
-    <p>Esta página será editada por todo el equipo.</p>
+        <h1>📚 Biblioteca Virtual Nexus</h1>
+
+        <nav>
+
+            <a href="#">Inicio</a>
+
+            <a href="#categorias">Categorías</a>
+
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+    </header>
+
+    <section class="inicio">
+
+        <h2>Bienvenido</h2>
+
+        <p>
+            Encuentra libros de Ferretería, Automóviles y Manga BL en un solo lugar.
+        </p>
+
+        <input type="text" placeholder="Buscar un libro...">
+
+    </section>
+
+    <section id="categorias">
+
+        <h2>Categorías</h2>
+
+        <div class="contenedor">
+
+            <div class="tarjeta">
+
+                <h3>🔨 Ferretería</h3>
+
+                <p>Libros sobre herramientas, construcción y electricidad.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>🚗 Automóviles</h3>
+
+                <p>Manuales y libros sobre mecánica automotriz.</p>
+
+            </div>
+
+            <div class="tarjeta">
+
+                <h3>💙 Manga BL</h3>
+
+                <p>Romance, fantasía y Omegaverse.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contacto">
+
+        <h2>Contáctanos</h2>
+
+        <form>
+
+            <input type="text" placeholder="Nombre">
+
+            <input type="email" placeholder="Correo">
+
+            <textarea placeholder="Escribe un mensaje"></textarea>
+
+            <button>Enviar</button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
